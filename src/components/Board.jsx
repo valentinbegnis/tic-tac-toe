@@ -1,8 +1,8 @@
-import { Slot } from "./Slot"
+import { Slot } from './Slot'
 
-export function Board({ board, updateBoard }) {
+export function Board ({ board, updateBoard }) {
   return (
-    <section className="game">
+    <section className='game'>
       {
         board.map((slot, index) => {
           return (

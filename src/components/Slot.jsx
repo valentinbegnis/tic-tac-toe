@@ -8,6 +8,6 @@ export const Slot = ({ children, isSelected, updateBoard, index }) => {
   return (
     <div className={className} onClick={handleClick}>
       {children}
-    </div> 
+    </div>
   )
 }
